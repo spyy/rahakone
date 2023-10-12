@@ -1,22 +1,8 @@
 const gulp = require('gulp');
 const axios = require("axios");
 
-const config = require('./config/conf.json');
+const options = require('./config/options.json');
 
-const options = {
-  method: 'GET',
-  url: 'https://alpha-vantage.p.rapidapi.com/query',
-  params: {
-    function: 'TIME_SERIES_DAILY',
-    symbol: 'MSFT',
-    outputsize: 'compact',
-    datatype: 'json'
-  },
-  headers: {
-    'X-RapidAPI-Key': config.xKey,
-    'X-RapidAPI-Host': config.xHost
-  }
-};
 
 function request(cb) {
   axios.request(options)
