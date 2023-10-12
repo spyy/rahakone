@@ -130,4 +130,4 @@ dist
 .pnp.*
 
 # secret files
-config/conf.json
+config/
