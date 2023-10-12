@@ -1,0 +1,28 @@
+{
+  "name": "rahakone",
+  "version": "1.0.0",
+  "description": "hobby project",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spyy/rahakone.git"
+  },
+  "keywords": [
+    "nodejs"
+  ],
+  "author": "sami.pyy@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/spyy/rahakone/issues"
+  },
+  "homepage": "https://github.com/spyy/rahakone#readme",
+  "devDependencies": {
+    "gulp": "^4.0.2"
+  },
+  "dependencies": {
+    "axios": "^1.5.1"
+  }
+}
